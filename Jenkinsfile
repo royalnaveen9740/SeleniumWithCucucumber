@@ -32,10 +32,6 @@ pipeline{
                 }
             }  
           }
-        stage("Junit test"){
-            steps{
-              step([$class: 'JUnitResultArchiver', checksName: '', testResults: ''])
-            }
-          }
+
     }
 }
