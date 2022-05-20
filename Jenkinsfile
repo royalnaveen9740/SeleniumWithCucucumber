@@ -34,7 +34,7 @@ pipeline{
           }
         stage("sending email notification"){
           steps{
-            emailext body: 'Build execution completed with checkout + Test + Reporting', subject: 'Build Execution completed.!', to: 'knaveen007singh@rediffmail.com'
+            emailext body: 'Build execution completed with checkout + Test + Reporting', subject: 'Build Execution completed.!', to: 'naveen10031986singh@gmail.com'
           }
         }
     }
